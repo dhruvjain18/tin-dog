@@ -1,0 +1,132 @@
+body{
+    font-style:Montserrat;
+}
+#title {
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+}
+h1{
+    color:white;
+    font: "Montserrat-Black";
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+.btn{
+    margin-top: 20px;
+}
+.btn2{
+    margin-left: 20px;
+}
+.rotate-img{
+    /* height:30em; */
+    margin-top: 10px;
+    transform: rotate(20deg);
+    position:absolute;
+    right:30%;
+}
+.navbar-brand{
+    font-family: "Ubantu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    margin: 18px 20px;
+    font-size: 1.3rem;
+    font-weight:bolder;
+}
+#features{
+    padding: 7% 7%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 10px;
+}
+.feature-box{
+    text-align:center;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+#testimonials{
+    text-align:center;
+    background-color: #ff4c68;
+}
+.carousel-item{
+    padding:7% 13%;
+}
+.testimonial-h2{
+    color:white;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1.5;
+    font-family:Ubantu;
+}
+.testimonial-img{
+    width:20%;
+    border-radius: 100%;
+    margin:20px;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width:15%;
+    margin:20px 20px 50px;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.pricing-section{
+    padding:2% 3%;
+}
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .rotate-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta-h3{
+    padding-top: 35px;
+    text-align: center;
+    font-size:2rem;
+    font-family: Ubantu;
+    font-weight: bold;
+    color:white;
+}
+.cta{
+    padding-top: 25px;
+    padding-bottom:90px;
+}
+#footer{
+    text-align:center;
+}
+.fa-twitter{
+    margin-top: 70px ;
+    margin-right: 20px;
+}
+.fa-instagram{
+    margin:0 20px;
+}
+.footer-class:hover{
+    color:#ff4c68;
+}
+.Copyright{
+    margin: 20px 0 70px;
+}
